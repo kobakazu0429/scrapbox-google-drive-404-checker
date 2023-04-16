@@ -1,0 +1,22 @@
+{
+  "name": "scrapbox-google-drive-404-checker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "ssh://git@github.com/kobakazu0429/scrapbox-google-drive-404-checker.git",
+  "author": "kobakazu0429 <kobakazu10@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-esm index.ts"
+  },
+  "dependencies": {
+    "get-urls": "^11.0.0",
+    "just-group-by": "^2.1.2",
+    "zod": "^3.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
